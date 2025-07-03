@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ESP32 Controller</string>
+    <string name="connection_settings">Connection Settings</string>
+    <string name="esp32_ip_address">ESP32 IP Address</string>
+    <string name="port">Port</string>
+    <string name="test_connection">Test Connection</string>
+    <string name="wifi_info">WiFi Info</string>
+    <string name="status">Status</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="controls">Controls</string>
+    <string name="led_on">LED ON</string>
+    <string name="led_off">LED OFF</string>
+    <string name="get_status">Get Status</string>
+    <string name="read_sensor">Read Sensor</string>
+    <string name="custom_command">Custom Command</string>
+    <string name="send_custom_command">Send Custom Command</string>
+    <string name="response_log">Response Log</string>
+    <string name="clear">Clear</string>
+    <string name="no_responses_yet">No responses yet...</string>
+</resources>
