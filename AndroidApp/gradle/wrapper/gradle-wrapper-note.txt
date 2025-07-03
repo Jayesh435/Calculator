@@ -1,0 +1,22 @@
+IMPORTANT: Missing gradle-wrapper.jar
+
+The gradle-wrapper.jar file is needed to build the APK but cannot be included in this text-based project.
+
+TO GENERATE THE GRADLE WRAPPER:
+
+1. Install Android Studio and open the AndroidApp project
+2. Android Studio will automatically generate the missing gradle-wrapper.jar
+3. Or run this command in the AndroidApp directory:
+   
+   gradle wrapper --gradle-version=8.0
+
+4. This will create the gradle/wrapper/gradle-wrapper.jar file
+
+ALTERNATIVE:
+- Download gradle-wrapper.jar from an existing Android project
+- Copy it to: AndroidApp/gradle/wrapper/gradle-wrapper.jar
+
+Once the gradle-wrapper.jar is present, you can build the APK using:
+- Android Studio: Build > Build APK(s)
+- Command line: ./gradlew assembleDebug
+- Or use the provided build scripts: build_apk.sh or build_apk.bat
